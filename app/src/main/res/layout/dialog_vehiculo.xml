@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Marca -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MARCA"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="@color/orange_primary"/>
+        <EditText
+            android:id="@+id/etMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ej: Toyota, Chevrolet, Ford"
+            android:inputType="textCapWords"
+            android:background="@null"
+            android:paddingBottom="8dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/orange_light"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Modelo -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODELO"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="@color/orange_primary"/>
+        <EditText
+            android:id="@+id/etModelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ej: Corolla, Aveo, Ranger"
+            android:inputType="textCapWords"
+            android:background="@null"
+            android:paddingBottom="8dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/orange_light"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Año -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AÑO"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="@color/orange_primary"/>
+        <EditText
+            android:id="@+id/etAnio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ej: 2022"
+            android:inputType="number"
+            android:background="@null"
+            android:paddingBottom="8dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/orange_light"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Placa -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLACA"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="@color/orange_primary"/>
+        <EditText
+            android:id="@+id/etPlaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ej: ABC-123"
+            android:inputType="textCapCharacters"
+            android:background="@null"
+            android:paddingBottom="8dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/orange_light"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Color -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COLOR"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="@color/orange_primary"/>
+        <EditText
+            android:id="@+id/etColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ej: Rojo, Azul, Negro"
+            android:inputType="textCapWords"
+            android:background="@null"
+            android:paddingBottom="8dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/orange_light"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

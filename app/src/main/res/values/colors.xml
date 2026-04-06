@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange_primary">#FFE65100</color>
+    <color name="orange_dark">#FFBF360C</color>
+    <color name="orange_light">#FFFF6D00</color>
+    <color name="orange_accent">#FFFFAB40</color>
+    <color name="orange_surface">#FFFFF3E0</color>
+    <color name="orange_surface2">#FFFFE0B2</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_primary">#FF212121</color>
+    <color name="text_secondary">#FF757575</color>
+    <color name="divider">#FFE0E0E0</color>
+</resources>
